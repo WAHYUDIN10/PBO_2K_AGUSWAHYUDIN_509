@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class DataDiri {
+public class DataKita {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
