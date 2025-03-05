@@ -6,7 +6,7 @@ public class LoginSederhana {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //tambah dan simpan data
+        //tambah dan simpan data dataa
         Map<String, String> mahasiswa = new HashMap<>();
         mahasiswa.put("Agus Wahyudin", "202410370110509");
 
