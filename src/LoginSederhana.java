@@ -10,7 +10,7 @@ public class LoginSederhana {
         Map<String, String> mahasiswa = new HashMap<>();
         mahasiswa.put("Agus Wahyudin", "202410370110509");
 
-        //tambah variabel
+        //tambah variabel dataa
         String adminUsername = "admin509";
         String adminPassword = "password509";
 
