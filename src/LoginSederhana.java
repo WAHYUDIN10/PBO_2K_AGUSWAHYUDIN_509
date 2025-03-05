@@ -8,11 +8,11 @@ public class LoginSederhana {
 
 
         Map<String, String> mahasiswa = new HashMap<>();
-        mahasiswa.put("Agus Wahyudin", "202410370110509");
+        mahasiswa.put("Agus Wahyudin", "202410370110509"); //simpan data
 
 
         String adminUsername = "admin509";
-        String adminPassword = "password509";
+        String adminPassword = "password509"; //variabel
 
         System.out.println("Pilih login:");
         System.out.println("1. Admin");
@@ -22,7 +22,7 @@ public class LoginSederhana {
         scanner.nextLine();
 
         if (pilihan == 1) {
-            
+
             System.out.print("Masukkan Username: ");
             String username = scanner.nextLine();
             System.out.print("Masukkan Password: ");
