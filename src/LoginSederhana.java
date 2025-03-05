@@ -6,11 +6,11 @@ public class LoginSederhana {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Database Mahasiswa (Nama dan NIM)
+
         Map<String, String> mahasiswa = new HashMap<>();
         mahasiswa.put("Agus Wahyudin", "202410370110509");
 
-        // Data Admin
+
         String adminUsername = "admin509";
         String adminPassword = "password509";
 
@@ -19,10 +19,10 @@ public class LoginSederhana {
         System.out.println("2. Mahasiswa");
         System.out.print("Masukkan pilihan: ");
         int pilihan = scanner.nextInt();
-        scanner.nextLine(); // Membersihkan buffer
+        scanner.nextLine();
 
         if (pilihan == 1) {
-            // Login Admin
+            
             System.out.print("Masukkan Username: ");
             String username = scanner.nextLine();
             System.out.print("Masukkan Password: ");
